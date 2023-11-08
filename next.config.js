@@ -8,13 +8,13 @@ module.exports = nextConfig;
 module.exports = {
 	env: {
 		devDir: 'http://localhost:3000',
-		prodDir: 'https://authenticity.ikrusher.com',
+		prodDir: 'https://auth-portal-jet.vercel.app/',
 		mongodbURI: 'mongodb+srv://ikrusher-custom:wpyLX5LxPbgukfTB@cluster0.nscjp.mongodb.net/shopifyDB?retryWrites=true&w=majority',
 		mongodbID: 'shopifyDB',
-		mode: 'dev'
+		mode: 'prod'
 	},
 	images: {
-		domains: ['authenticity.ikrusher.com']
+		domains: ['auth-portal-jet.vercel.app']
 	},
 	eslint: {
 		ignoreDuringBuilds: true
