@@ -8,13 +8,13 @@ module.exports = nextConfig;
 module.exports = {
 	env: {
 		devDir: 'http://localhost:3000',
-		prodDir: 'https://auth-portal-jet.vercel.app/',
+		prodDir: 'https://auth-portal-zofo.vercel.app/',
 		mongodbURI: 'mongodb+srv://ikrusher-custom:wpyLX5LxPbgukfTB@cluster0.nscjp.mongodb.net/shopifyDB?retryWrites=true&w=majority',
-		mongodbID: 'shopifyDB',
+		mongodbID: 'shopifyZofo',
 		mode: 'prod'
 	},
 	images: {
-		domains: ['auth-portal-jet.vercel.app']
+		domains: ['auth-portal-zofo.vercel.app']
 	},
 	eslint: {
 		ignoreDuringBuilds: true
