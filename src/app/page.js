@@ -7,7 +7,11 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className="formApp">
-        <h2 className="formTitle">Enter Authenticity Code here</h2>
+        <h2 className="formTitle">Verify Product</h2>
+        <p>
+          Please locate the authentication label and gently scratch off its
+          coating to reveal the security code.
+        </p>
         <CheckCodeForm />
       </div>
     </main>
